@@ -1,0 +1,201 @@
+   /* Reset some default browser styles */
+   body,
+   h1,
+   h2,
+   p,
+   ul,
+   li,
+   nav,
+   a {
+       margin: 0;
+       padding: 0;
+
+   }
+
+   body {
+       font-family: Arial, sans-serif;
+       background-color: white;
+   }
+
+   header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+       background-color: black;
+       color: #fff;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+    
+   }
+
+
+
+   header .logo {
+       font-size: 24px;
+   }
+
+   nav ul {
+       list-style: none;
+       display: flex;
+   }
+
+   nav li {
+       margin-right: 20px;
+   }
+
+   nav a {
+       text-decoration: none;
+       color: #fff;
+       font-weight: bold;
+       transition: color 0.2s;
+       padding: 10px;
+   }
+
+   nav a:hover {
+       color: rgb(245, 198, 10);
+       padding: 10px;
+   }
+
+   .hero,
+   .about,
+   .courses,
+   .contact {
+       padding: 40px;
+   }
+
+   .btn {
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+       padding: 1%;
+       font-family: Verdana;
+       transition: 0.3s;
+   }
+
+   .btn:hover {
+       background-color: black;
+       color: rgb(245, 198, 10);
+       border-radius: 25px;
+       padding: 1%;
+   }
+
+
+   .hero h2 {
+       font-size: 36px;
+   }
+
+   .courses ul {
+       list-style-type: disc;
+   }
+
+   footer {
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 10px;
+   }
+
+   .about {
+       height: 300%;
+   }
+
+   .initial {
+       color: rgb(245, 198, 10);
+       font-size: 20px;
+       width: 5%;
+       font-style: italic;
+   }
+
+   .word {
+       font-style: normal;
+   }
+
+   .btn0 {
+       text-decoration: none;
+       color: #f5c60a;
+       font-weight: bold;
+       padding: 1%;
+       transition: color 0.3s;
+   }
+
+   .btn0:hover {
+       background-color: white;
+       color: navy;
+       border-radius: 25px;
+   }
+
+   th {
+       font-family: Verdana;
+       font-weight: bold;
+       font-size: 18px;
+   }
+
+   .mapouter {
+       position: relative;
+       height: 280px;
+       width: 260px;
+     margin-top: 20px;
+       background: white;
+       width: 100%; 
+    
+   }
+   .gmap_canvas {
+       overflow: hidden;
+     
+   }
+
+   .gmap_canvas iframe {
+       position: relative;
+       z-index: 2
+   }
+
+   form {
+    display: inline-block;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+input[type="submit"] {
+    background-color: #8d7206;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.floating-button {
+    width: 60px;
+    height: 60px;
+    background-color: navy; /* Change the background color as desired */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 60px;
+    color: white; /* Text color */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    z-index: 1000; /* Ensure it's above other page content */
+}
+
+.flaticon-icon {
+    width: 24px; /* Set the width and height as desired */
+    height: 24px;
+    filter: white; /* Change the icon color as desired */
+}
+
+
+  
